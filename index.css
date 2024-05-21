@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'MyFont'; src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-family: MyFont;
+    display: grid;
+    place-items: center;
+    padding: 4%;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Purple-BG {
+    background: linear-gradient(
+        hsl(252, 100%, 67%),
+        hsl(241, 81%, 54%)
+    );
+    color: white;
+    border-radius: 20px;
+    width: 450px;
+    height: 500px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 9%;
+    padding-right: 9%;
+    display: grid;
+    place-items: center;
+    z-index: 2;
+    position: relative;
+}
+
+.Round-BG {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 0;
+    background: linear-gradient(
+        hsla(256, 72%, 46%, 1),
+        hsla(241, 72%, 46%, 0)
+    );
+}
+
+.result {
+    font-weight: bold;
+    font-size: 30px;
+    opacity: 0.8;
+}
+
+.LargeText1 {
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.SmallText1 {
+    opacity: 0.6;
+    margin-top: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.Text2 {
+    display: grid;
+    row-gap: 5px;
+}
+
+.LargeText2 {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.SmallText2 {
+    opacity: 0.6;
+    margin-top: 0;
+    font-size: 18.5px;
+    text-align: center;
+}
+
+.White-BG {
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 7%;
+    padding-right: 7%;
+    box-shadow: 30px 30px 50px hsla(224, 30%, 27%, 0.1);
+    z-index: 1;
+    position: relative;
+}
+
+.Summary {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.SummaryItems {
+    display: grid;
+    gap: 20px; 
+    padding: 0;
+    place-items: center;
+}
+
+
+.P1, .P2, .P3, .P4 {
+    margin: 0; 
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.FirstP1, .FirstP2, .FirstP3, .FirstP4 {
+    margin-right: auto;
+    padding-left: 0;
+}
+
+.ThirdP1, .ThirdP2, .ThirdP3, .ThirdP4 {
+    color: rgb(0, 0, 0, 0.4);
+}
+
+.P1 {
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.FirstP1 {
+    color: hsla(0, 75%, 64%, 0.8);
+}
+
+.P2 {
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.FirstP2 {
+    color: hsla(39, 100%, 56%, 0.8);
+}
+
+.P3 {
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.FirstP3 {
+    color: hsla(166, 100%, 37%, 0.8);
+}
+
+.P4 {
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+.FirstP4 {
+    color: hsla(234, 85%, 45%, 0.8);
+}
+
+.StyledButton {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border: none;
+    width: 270px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 60px;
+    margin: 30px 0;
+}
+
+
+
+.Button-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.StyledButton:hover {
+    background-image: linear-gradient(
+        hsl(256, 72%, 46%),
+        hsl(241, 72%, 46%)
+    );
